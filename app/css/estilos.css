@@ -1,0 +1,20 @@
+ /* Comentarios .css*/
+    /*Etiqueta*/
+h1,h2 {
+    /* nombre_propiedad: valor_propiedad */
+    color: orangered;
+}
+/*clase*/
+.bg-green{
+    background-color: darkgreen;
+}
+.borde-cafe{
+    border-style:solid;
+    border-width:3px;
+    border-color:saddlebrown;
+}
+/*ID*/
+#azul{
+    color: blue;
+}
+/* (style) */

@@ -82,9 +82,30 @@
 >
     <input type="text" name="username">
     <input type="text" name="password">
+    <!--button no hace nada-->
     <button type="button">No hago nada</button>
+    <!--submit realiza la accion-->
     <button type="submit">Enviar</button>
+    <!--reset limpia los campos-->
+    <button type="reset">Reset</button>
 </form>
-
+<h2>IFrame</h2>
+<!--src="http://localhost:3000"-->
+<iframe id="saew"
+        src="https://saew.epn.edu.ec"
+        frameborder="0"
+        width="600"
+        height="800">
+</iframe>
+<br>
+<br>
+<br>
+<br>
+<script>
+    var etiquetaSaew = document.getElementById("saew");
+    etiquetaSaew.contentWindow.addEventListener("keypress", function (evento) {
+        console.log(evento);
+    })
+</script>
 </body>
 </html>
