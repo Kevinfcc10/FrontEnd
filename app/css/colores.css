@@ -17,3 +17,24 @@
     color: darkslategrey;
     cursor: pointer;
 }
+.bg-rojo{
+    background-color: red;
+}
+.bg-azul{
+    background-color: blue;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-skyblue{
+    background-color: skyblue;
+}
+.bg-amarrillo{
+    background-color: yellow;
+}
