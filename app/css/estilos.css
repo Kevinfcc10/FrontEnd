@@ -17,4 +17,102 @@ h1,h2 {
 #azul{
     color: blue;
 }
+
 /* (style) */
+
+ @keyframes slider {
+     0%{
+         left: 0%;
+     }
+     10%{
+         left: -10%;
+     }
+     25%{
+         left: -20%;
+     }
+     40%{
+         left: -35%;
+     }
+     50%{
+         left: -75%;
+     }
+     60%{
+          left: -85%;
+      }
+     75%{
+         left: -90%;
+     }
+     95%{
+         left: -95%;
+     }
+     100%{
+         left: -100%;
+     }
+ }
+
+ #slider{
+     overflow: hidden;
+ }
+
+ #slider figure img{
+     width: auto;
+     float: left;
+ }
+ #slider figure{
+     position: relative;
+     width: 200%;
+     margin: 0;
+     left: 0;
+     text-align: left;
+     font-size: 0;
+     animation: 10s slider infinite;
+     animation-delay: initial;
+     animation-direction: normal;
+     animation-duration: 10s;
+ }
+
+ div{
+     padding: 2px 2px;
+ }
+
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: dodgerblue;
+ }
+
+
+ li{
+     float: left;
+ }
+
+ li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 12px 17px;
+     text-decoration: none;
+ }
+
+ li a:hover {
+     background-color: blue;
+ }
+
+ .normal > ul li a{
+     margin: 0;
+     padding: 0;
+     color: black;
+     text-align: left;
+     background-color: white;
+ }
+
+ .normal > li a{
+     display: none;
+     color: black;
+     float: none;
+ }
+ .normal :hover{
+     background: white;
+ }
